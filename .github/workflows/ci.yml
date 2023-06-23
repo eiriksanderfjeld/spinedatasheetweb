@@ -57,7 +57,7 @@ jobs:
           name: ${{ env.FUSION_APP_KEY }}.zip
 
       - name: Deploy to Fusion Portal
-        uses: equinor/farfetched-actions/fusion-deploy@v2.0
+        uses: equinor/iaf-actions/fusion-deploy@main
         with:
           fusion-portal-url: ${{ vars.FUSION_PORTAL_URL }}
           app-key: ${{ env.FUSION_APP_KEY }}
@@ -82,7 +82,7 @@ jobs:
           name: ${{ env.FUSION_APP_KEY }}.zip
 
       - name: Deploy to Fusion Portal
-        uses: equinor/farfetched-actions/fusion-deploy@v2.0
+        uses: equinor/iaf-actions/fusion-deploy@main
         with:
           fusion-portal-url: ${{ vars.FUSION_PORTAL_URL }}
           app-key: ${{ env.FUSION_APP_KEY }}
@@ -106,7 +106,7 @@ jobs:
           name: ${{ env.FUSION_APP_KEY }}.zip
 
       - name: Deploy to Fusion Portal
-        uses: equinor/farfetched-actions/fusion-deploy@v2.0
+        uses: equinor/iaf-actions/fusion-deploy@main
         with:
           fusion-portal-url: ${{ vars.FUSION_PORTAL_URL }}
           app-key: ${{ env.FUSION_APP_KEY }}
